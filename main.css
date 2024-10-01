@@ -2,11 +2,17 @@ body {
     background-color: #add8e6;
 }
 a {
-    color: #000;
+    color: #fff;
     padding: 25px;
     font-size: 24px;
 }
-
+nav {
+    background-color: steelblue;
+}
+#active {
+    background-color: beige;
+    color: steelblue;
+}
 h1 {
     text-align: center;
 }
@@ -14,3 +20,6 @@ img {
     width: 300px;
 }
 
+.gray {
+    background-color: #ccc;
+}
