@@ -1,16 +1,16 @@
 body {
-    background-color: #add8e6;
-}
-a {
-    color: #fff;
-    padding: 25px;
-    font-size: 24px;
+    background-color: beige;
 }
 nav {
     background-color: steelblue;
 }
+a {
+    color: beige;
+    padding: 25px;
+    font-size: 24px;
+}
 #active {
-    background-color: beige;
+    background-color: beige ;
     color: steelblue;
 }
 h1 {
@@ -19,7 +19,6 @@ h1 {
 img {
     width: 300px;
 }
-
 .gray {
     background-color: #ccc;
 }
