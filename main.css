@@ -1,24 +1,47 @@
 body {
     background-color: beige;
+    font-size: 24px;
 }
-nav {
+nav, footer  {
     background-color: steelblue;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
 }
 a {
     color: beige;
     padding: 25px;
     font-size: 24px;
 }
-#active {
-    background-color: beige ;
+a:hover {
+    background-color: beige;
+    color: steelblue;
+}
+.link {
+    color: steelblue;
+    padding:0;
+}
+.active {
+    background-color: beige;
     color: steelblue;
 }
 h1 {
     text-align: center;
 }
 img {
-    width: 300px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+} 
+p {
+    width: 70%;
+    margin: 25px auto;
+    line-height: 1.25em;
 }
-.gray {
-    background-color: #ccc;
+
+footer p {
+    color: beige;
+    text-align: center;
 }
