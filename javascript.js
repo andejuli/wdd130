@@ -1,12 +1,9 @@
-let h1Content = document.querySelector('h1');
-let num1 = 2;
-let num2 = 5;
+let add = function(num1, num2) { 
+  return(num1 + num2); 
+};
 
-h1Content.textContent = addIt(num1, num2);
+console.log(add(3, 5));
 
-function addIt(n1, n2) {
-    return(n1 + n2)
-}
 
 
 
