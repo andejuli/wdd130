@@ -1,33 +1,12 @@
+let num1 = 2;
+let num2 = 5;
 
-const PI = 3.14;
-let radius = 5;
-let area;
+function addIt(n1, n2) {
+    return(n1 + n2)
+}
 
-area = radius * radius * PI;
-
-// console.log(area);
-
-// radius = 5;
-
-// area = radius * radius * pi;
-
-// console.log(area);
-
- const one = 1;
- const two = '2';
-// const three = 'e';
-
-// let result = one * two;
-
-// console.log (result);
-
-result = one + two;
-
-console.log(result);
-
-result = one + Number(two);
-
-console.log(result);
+let h1Content = document.querySelector('h1');
+h1Content.textContent = addIt(num1, num2);
 
 
 
