@@ -1,6 +1,7 @@
-let sum = (no1, no2) => no1 + no2;
+const greetWorld = () => "Hello, world!"; 
 
-console.log(sum(5,6));
+document.querySelector('h1').textContent = greetWorld();
+
 
 
 
